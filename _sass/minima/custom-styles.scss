@@ -1,0 +1,26 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// .site-title::before {
+//     clip-path: circle();
+//     content: url("/assets/iheartstonks.JPG");
+//     display: inline-block;
+//     position: relative;
+//     width: 32px;
+//     height: 32px;
+// }
+
+.site-logo {
+    clip-path: circle();
+}
+
+.left-column {
+    width: 15%;
+    float: left;
+    border-right: 1px solid $border-color-01;
+}
+  
+.right-column {
+    width: 80%;
+    float: right;
+}
